@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 )
-
+//testing 
 func main() {
 
 	gopath := os.Getenv("GOPATH")
