@@ -1,9 +1,12 @@
 package main
-import(
+
+import (
 	"fmt"
 )
 
-func main(){
+func main() {
 
 	fmt.Println("Hello World")
+	//Printing todo
+	fmt.Println("Printing, TODO")
 }
