@@ -34,6 +34,4 @@ func main() {
 	fmt.Println()
 
 	fmt.Println("------------- End Homework Block --------------------")
-	
-
 }
