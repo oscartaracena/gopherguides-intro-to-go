@@ -7,28 +7,33 @@ import (
 func main() {
 
 	fmt.Println("Hello World")
+	fmt.Println()
+	fmt.Println()
+	fmt.Println("------------- Begin Homework Block ------------------")
 	//Printing todo
 	fmt.Println("Printing, TODO")
-	
+	fmt.Println()
+	fmt.Println()
 	//printing String ("Go")
 	str := "Go"
 	fmt.Println("Printing", str)
-	
-	//printing int (42) 
+	fmt.Printf("Printing = %s", str)
+	fmt.Println()
+	fmt.Println()
+	//printing int (42)
 	numVal := 42
 	fmt.Println("Printing", numVal)
-	
-	//printing bool (true)
-	
-	fmt.Println("Printing")	
+	fmt.Printf("Printing = %d\n", numVal)
+	fmt.Println()
+	fmt.Println()
+	//printing bool (true) - using Println & Printf
+	foundTrue := true
+	fmt.Println("Printing", foundTrue)
+	fmt.Printf("Printing  = %t\n", foundTrue)
+	fmt.Println()
+	fmt.Println()
 
-	//ignore just testing that is all 
-	a := "Say \"hello\" to Go!"
-	fmt.Println(a)
-	fmt.Printf("%s\n", a)
-	b := "Hello, 世界"
-	for i, c := range b {
-		fmt.Printf("%d: %s\n", i, string(c))
-	}
+	fmt.Println("------------- End Homework Block --------------------")
+	
 
 }
