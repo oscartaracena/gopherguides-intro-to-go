@@ -30,5 +30,19 @@ func main() {
 		fmt.Printf("%d. %s", i, v)
 		fmt.Println()
 	}
+	fmt.Println()
+	//maps
+	beatles := map[string]string{}
+
+	beatles["John"] = "guitar"
+	beatles["Paul"] = "bass"
+	beatles["George"] = "guitar"
+	beatles["Ringo"] = "drums"
+
+	fmt.Println(beatles)
+	fmt.Println()
+	for key, value := range beatles {
+		fmt.Printf("%s plays %s\n", key, value)
+	}
 
 }
