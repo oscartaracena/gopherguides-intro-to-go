@@ -23,11 +23,11 @@ func main() {
 	}
 	fmt.Println()
 	fmt.Println()
-
+	//Slices
 	nameSlice := []string{"Lou", "John", "Sterling", "Moe"}
 	nameSlice = append(nameSlice, "Nico")
 	for i, v := range nameSlice {
-		fmt.Printf("%d, %s", i, v)
+		fmt.Printf("%d. %s", i, v)
 		fmt.Println()
 	}
 
