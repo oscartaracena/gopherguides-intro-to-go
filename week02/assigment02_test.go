@@ -11,5 +11,12 @@ func TestArray(t *testing.T) {
 
 	for i, v := range exp {
 		act[i] = v
+		fmt.Printf("%d - %s\n", i, v)
 	}
+	for i, v := range act {
+		if act[i] != exp[i] {
+			t.Errorf("act[%d] : %s is not equal to exp[%d] : %s ", i, v, i, exp[i])
+		}
+	}
+
 }
