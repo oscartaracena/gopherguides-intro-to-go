@@ -1,0 +1,8 @@
+name: "week02"
+description:  "week02"
+
+runs:
+  using: composite
+  steps:
+  - run: go run  main.go
+    shell: bash
